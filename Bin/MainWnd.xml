@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,600" sizebox="4,4,4,4" caption="0,0,0,64"  >
+	
+	<Font id="0" name="Tahoma" size="12" default="true"/> 
+    <Font id="1" name="Tahoma" size="13"   /> 
+    <Font id="2" name="Tahoma" size="16" bold="true"/> 
+	<Font id="3" name="Tahoma" size="48" bold="true"/> 
+    
+	<Default name="Label" value="textcolor=&quot;#FF454545&quot;   " />
+   <Default name="Option" value="textcolor=&quot;#FFFFFFFF&quot; font=&quot;1&quot; align=&quot;left&quot;  padding=&quot;16,0,0,0&quot; selectedtextcolor=&quot;#FF169AF3&quot; hottextcolor=&quot;#FF169AF3&quot;   " />
+	<Default name="Edit"  value="bordercolor=&quot;#FFC5C5C5&quot; bordersize=&quot;1&quot; focusbordercolor=&quot;#FF5AAFF7&quot; textcolor=&quot;#FF454545&quot; bkcolor=&quot;#00000000&quot; nativebkcolor=&quot;#00000000&quot; tiptextcolor=&quot;#ffc0c0c0&quot;" />
+	<Default name="VScrollBar" value="width=&quot;13&quot; button1normalimage=&quot;file='res\buttons\vscroll_up_normal.png'&quot; button1hotimage=&quot;file='res\buttons\vscroll_up_hover.png'&quot; button1pushedimage=&quot;file='res\buttons\vscroll_up_down.png' &quot; button1disabledimage=&quot;file='res\buttons\vscroll_up_disable.png'&quot; button2normalimage=&quot;file='res\buttons\vscroll_down_normal.png'&quot; button2hotimage=&quot;file='res\buttons\vscroll_down_hover.png'&quot; button2pushedimage=&quot;file='res\buttons\vscroll_down_down.png'&quot; button2disabledimage=&quot;file='res\buttons\vscroll_down_disable.png'&quot; thumbnormalimage=&quot;file='res\buttons\thumb_normal.png' &quot; thumbhotimage=&quot;file='res\buttons\thumb_hover.png' &quot; thumbpushedimage=&quot;file='res\buttons\thumb_down.png' &quot; thumbdisabledimage=&quot;file='res\buttons\thumb_disable.png' &quot;  bkcolor=&quot;#FF000000&quot;" />
+	
+	<Default name="Button" shared="true" value="fadedelta=&quot;15&quot;"/>
+	<Default name="List" shared="true" value="bordersize=&quot;1&quot; colorhsl=&quot;true&quot;  itemlinecolor=&quot;#FFD7D7D7&quot; bordercolor=&quot;#FFD7D7D7&quot; itembkimage=&quot;file='res\twbk.png' fade='45' &quot; itemhotimage=&quot;file='res\twbk.png' fade='90' &quot; itemselectedimage=&quot;file='res\twbk.png' fade='135' &quot; itemdisabledimage=&quot;file='res\twbk.png' fade='180'&quot; itembkcolor=&quot;#00000000&quot; itemdisabledbkcolor=&quot;#FF5a5a5a&quot; itemhotbkcolor=&quot;#00000000&quot; itemselectedbkcolor=&quot;#00000000&quot; itemtextpadding=&quot;5,0,5,0&quot; itemselectedtextcolor=&quot;#FFFF0000&quot; itemaltbk=&quot;true&quot; itemendellipsis=&quot;true&quot;"   />
+	
+	<Default name="ListHeader" shared="true" value="bkimage=&quot;file='res\buttons\list_header_bg.png' fade='220' &quot;"   />
+	
+	<Default name="ListHeaderItem" shared="true" value="sepwidth=&quot;1&quot; align=&quot;left&quot; textpadding=&quot;5,0,5,0&quot; hotimage=&quot;file='res\buttons\list_header_hot.png' fade='240' &quot; pushedimage=&quot;file='res\buttons\list_header_pushed.png' fade='250' &quot; sepimage=&quot;res\buttons\list_header_sep.png&quot; menu=&quot;true&quot;"   />
+	
+    <VerticalLayout name="background" bkcolor="#FF313131" insert="1,0,1,1" >
+        <HorizontalLayout  height="64" bkcolor="#FF717171" bkcolor2="#FF313131" bkcolor3="#FF313131" ><!-- Caption -->
+                <HorizontalLayout width="128"  >
+                    <Control   padding="8,18,0,0" width="120" height="28"  bkimage="res\logo\logo.png" tooltip="PEDIY ShellcodeX" />
+                </HorizontalLayout>
+                <HorizontalLayout >
+                    <Option name="optTools"  text="Tools" padding="40,16,0,0"  width="80" height="32" font="2" selected="true" group="GroupTab" textpadding="33,0,0,0" bkimage="file='res\tool.png' dest='0,0,32,32'" />
+					<Option name="optShellcode"   text="Shellcode"  padding="40,16,0,0"  width="110" height="32" font="2"  group="GroupTab" textpadding="33,0,0,0" bkimage="file='res\shellcode.png' dest='0,0,32,32'" />
+                </HorizontalLayout>
+                <HorizontalLayout  width="58" >
+                    <Button name="minbtn" tooltip="min"  padding="2,23,0,0" width="23" height="18"  normalimage="res\buttons\min_normal.png" hotimage="res\buttons\min_hover.png" pushedimage="res\buttons\min_down.png" />
+                    <Button name="closebtn" tooltip="close"  padding="2,23,0,0" width="23" height="18" normalimage="res\buttons\close_normal.png" hotimage="res\buttons\close_hover.png" pushedimage="res\buttons\close_down.png" />
+                </HorizontalLayout>           
+        </HorizontalLayout>
+		<TabLayout name="tabPanels" bkimage="file='res\tbbk.png' fade='200'" >
+			<HorizontalLayout  ><!--tools-->
+				<VerticalLayout width="135" inset="7,0,0,0" bkimage="file='res\twbk.png' fade='50'" rightbordersize="1" bordercolor="#FFCEDEEA"><!-- left selected tab  -->
+					<Label text="Tools" textcolor="#FFFFFFFFF" tag="1" padding="2,15,0,0" font="2" width="70" />
+					<Option name="optApi" tag="2"  text="API"  width="128" height="26" group="GroupTools" padding="10,0,0,0" textpadding="19,0,0,0" bkimage="file='res\api.png' dest='2,4,18,20'" />
+					<Option name="optString" tag="3"  text="String"  width="128" height="26"  group="GroupTools"  padding="10,0,0,0"  textpadding="19,0,0,0" bkimage="file='res\str.png' dest='2,4,18,20'" />
+					<Option name="optTest" tag="3"  text="Test"  width="128" height="26"  group="GroupTools"  padding="10,0,0,0"  textpadding="19,0,0,0" bkimage="file='res\test.png' dest='2,4,18,20'" />
+				</VerticalLayout>
+				<VerticalLayout>
+					<TabLayout name="tabTools" selectedid="0" >	
+					 <!--API -->
+						<VerticalLayout bkcolor="#FFf1f1f1" inset="15,15,15,15" >
+							<HorizontalLayout height="24" >
+								<Label  text="API:" height="24" width="30"   align="left" />
+								<Edit name="txtWinAPI" tiptext="Windows API name" align="center" height="22" padding="5,0,0,0"    />
+								<Label  text="DLL:" height="24" width="30" padding="20,0,0,0"   align="left" />
+								<Edit name="txtModuleName" enabled="false" tiptext="Module name" width="120" height="22" padding="5,0,0,0"    />
+								<Button name="btnCalcHash" text="Calc Hash" width="70" height="22" padding="10,0,0,0" normalimage="file='res\buttons\button_normal.png' corner='5,5,5,5'" hotimage="file='res\buttons\button_hover.png' corner='5,5,5,5'" pushedimage="file='res\buttons\button_down.png' corner='5,5,5,5'"  />
+								<Label  text="Hash:" height="24" width="30" padding="10,0,0,0"   align="left" />
+								<Edit name="txtApiHash"  tiptext="0x00000000" width="80" height="22" padding="5,0,0,0"    />
+								<Button name="btnCopyHash" text="Copy Hash" width="70" height="22" padding="10,0,0,0" normalimage="file='res\buttons\button_normal.png' corner='5,5,5,5'" hotimage="file='res\buttons\button_hover.png' corner='5,5,5,5'" pushedimage="file='res\buttons\button_down.png' corner='5,5,5,5'"  />
+								
+							</HorizontalLayout>
+						</VerticalLayout>
+						<!--  string -->
+						<HorizontalLayout bkcolor="#FFf1f1f1" inset="15,15,15,15"> 
+							<VerticalLayout > <!--string left-->
+								<HorizontalLayout  >
+									<Edit name="txtStrSrc" tiptext="Source String" multiline="true"  padding="5,5,5,5"    />
+								</HorizontalLayout>
+								<HorizontalLayout height="24" padding="0,2,0,2" >
+									<Button name="btnWideStr2DwordArry" text="Wide->Dowrd[]" width="100" height="24" padding="5,0,0,0" normalimage="file='res\buttons\button_normal.png' corner='5,5,5,5'" hotimage="file='res\buttons\button_hover.png' corner='5,5,5,5'" pushedimage="file='res\buttons\button_down.png' corner='5,5,5,5'"  />
+									<Button name="btnMultStr2DowrdArry" text="Mult->Dowrd[]" width="100" height="24" padding="5,0,0,0" normalimage="file='res\buttons\button_normal.png' corner='5,5,5,5'" hotimage="file='res\buttons\button_hover.png' corner='5,5,5,5'" pushedimage="file='res\buttons\button_down.png' corner='5,5,5,5'"  />
+								</HorizontalLayout>
+								<HorizontalLayout  >
+									<Edit name="txtStrDst" tiptext="Destination String" multiline="true"    padding="5,5,5,5"   />
+								</HorizontalLayout>
+							</VerticalLayout >
+							<VerticalLayout width="120" ><!--String right -->
+								<Button name="btnCopyDest" text="Copy Destination"  height="24" padding="2,5,2,2" normalimage="file='res\buttons\button_normal.png' corner='5,5,5,5'" hotimage="file='res\buttons\button_hover.png' corner='5,5,5,5'" pushedimage="file='res\buttons\button_down.png' corner='5,5,5,5'"  />
+							
+							</VerticalLayout>
+						</HorizontalLayout>
+						<!--  Test -->
+						<VerticalLayout bkcolor="#FFf1f1f1" inset="15,15,15,15"> 
+							<HorizontalLayout height="26"> 
+								<Label  text="Shellcode File:" height="24" width="80"   align="left" />
+								<Edit name="txtScFileName" tiptext="Support Drop file" height="22" padding="5,0,0,0"    />
+								<Label  text="File Size:" height="24" width="50" padding="10,0,0,0"   align="left" />
+								<Edit name="txtScFileSize" readonly="TRUE" tiptext="Byte" width="60" height="22" padding="5,0,0,0"    />
+								<Label  text="Entry Offset:" height="24" width="70" padding="10,0,0,0"   align="left" />
+								<Edit name="txtScEntryOffset"  tiptext="0" width="60" height="22" padding="5,0,0,0"    />
+								<Button name="btnExecSc" text="Execute" width="70" height="22" padding="10,0,0,0" normalimage="file='res\buttons\button_normal.png' corner='5,5,5,5'" hotimage="file='res\buttons\button_hover.png' corner='5,5,5,5'" pushedimage="file='res\buttons\button_down.png' corner='5,5,5,5'"  />
+							</HorizontalLayout >
+							<Label width="396" text="drag drop" height="132" borderstyle="3" bordersize="1" align="center" font="3" bordercolor="#FFAAAAAA" />
+						</VerticalLayout >
+					</TabLayout> <!--Tools Tab end -->
+				</VerticalLayout>      
+			</HorizontalLayout> 
+			<!-- 2. shellcode panel -->
+			<VerticalLayout  bkcolor="#FFf1f1f1" inset="15,15,15,15">
+				<HorizontalLayout height="24"> <!-- 1 -->
+					<Label text="Size:" tooltip="shellcode size" align="right" width="60" height="24"  />
+					<Edit name="txtScSize" text="0" align="center"  height="22" padding="5,1,0,0"    />
+					<Button name="btnVsExec" text="VS Exec" width="90" height="22" padding="66,1,0,0" normalimage="file='res\buttons\button_normal.png' corner='5,5,5,5'" hotimage="file='res\buttons\button_hover.png' corner='5,5,5,5'" pushedimage="file='res\buttons\button_down.png' corner='5,5,5,5'"  />
+					<Button name="btnMemExec" text="Mem Exec" width="90" height="22" padding="10,1,0,0" normalimage="file='res\buttons\button_normal.png' corner='5,5,5,5'" hotimage="file='res\buttons\button_hover.png' corner='5,5,5,5'" pushedimage="file='res\buttons\button_down.png' corner='5,5,5,5'"  />
+					<Button name="btnInjectExec" text="Inject Exec" width="90" height="22" padding="10,1,10,0" normalimage="file='res\buttons\button_normal.png' corner='5,5,5,5'" hotimage="file='res\buttons\button_hover.png' corner='5,5,5,5'" pushedimage="file='res\buttons\button_down.png' corner='5,5,5,5'"  />
+				</HorizontalLayout>
+				<HorizontalLayout height="24"> <!-- 2 -->
+					<Label text="Bin:" tooltip="Bin file path" align="right" width="60" height="24"  />
+					<Edit name="txtBinPath" endellipsis="true" height="22" padding="5,1,0,0" textpadding="5,0,20,0"   />
+					<Button name="btnBinPath"   width="16" height="16" padding="-20,4,0,0"  bkimage="res\folder.png"  />
+					
+					<Button name="btnDump" text="Dump" width="90" height="22" padding="270,1,10,0" normalimage="file='res\buttons\button_normal.png' corner='5,5,5,5'" hotimage="file='res\buttons\button_hover.png' corner='5,5,5,5'" pushedimage="file='res\buttons\button_down.png' corner='5,5,5,5'"  />
+				</HorizontalLayout>
+				<HorizontalLayout height="24"> <!-- 3 -->
+					<Label text="Map File:" tooltip="Map.txt path" align="right" width="60" height="24"  />
+					<Edit name="txtMapPath" endellipsis="true"  height="22" padding="5,1,0,0" textpadding="5,0,20,0"   />
+					<Button name="btnMapPath" width="16" height="16" padding="-20,4,0,0"  bkimage="res\folder.png"  />
+					<Button name="btnLoadMapFunsPath" tooltip="it can use When in Vs Attach Mode  " width="22" height="22" padding="10,1,0,0" bkimage="file='res\load.png' dest='3,3,19,19'" hotimage="file='res\buttons\btn.hover.png' corner='5,5,5,5'"  />
+					<Label text="Filter:" tooltip="the value of Filter" align="right" width="90" padding="38,0,0,0" height="24"  />
+					<Edit name="txtFilter" text="scx_"  width="90" height="22" padding="10,1,0,0" textpadding="10,0,10,0"   />
+					<Button name="btnReadMap" text="Read Map" width="90" height="22" padding="10,1,10,0" normalimage="file='res\buttons\button_normal.png' corner='5,5,5,5'" hotimage="file='res\buttons\button_hover.png' corner='5,5,5,5'" pushedimage="file='res\buttons\button_down.png' corner='5,5,5,5'"  />
+				</HorizontalLayout>
+				<HorizontalLayout height="24"> <!-- 4 -->
+					
+					<Label text="Funs File:" tooltip="Funs.txt path" align="right" width="60" height="24"  />
+					<Edit name="txtFunPath" endellipsis="true"  height="22" padding="5,1,0,0" textpadding="5,0,20,0"   />
+					<Button name="btnFunPath"   width="16" height="16" padding="-20,4,0,0"  bkimage="res\folder.png"  />
+					<Label name="labFunNumb" text="0" tooltip="the count of functions " padding="10,0,0,0" autocalcwidth="false" width="60" height="24"  />
+					<Button name="btnRandomFuns" text="Random Funs" width="90" height="22" padding="100,1,0,0" normalimage="file='res\buttons\button_normal.png' corner='5,5,5,5'" hotimage="file='res\buttons\button_hover.png' corner='5,5,5,5'" pushedimage="file='res\buttons\button_down.png' corner='5,5,5,5'"  />
+					<Button name="btnWriteFuns" text="Write Funs" width="90" height="22" padding="10,1,10,0" normalimage="file='res\buttons\button_normal.png' corner='5,5,5,5'" hotimage="file='res\buttons\button_hover.png' corner='5,5,5,5'" pushedimage="file='res\buttons\button_down.png' corner='5,5,5,5'"  />
+				</HorizontalLayout>
+				<HorizontalLayout  padding="0,2,10,10"> <!-- 5 -->
+					<Label text="Funs:"  align="right" width="60" height="24"  />
+					<List name="listFuns" padding="5,1,0,0" insert="2,2,2,2"  menu="true"   vscrollbar="true" hscrollbar="true" >
+						<ListHeader >
+							<ListHeaderItem text="#" width="24" height="24"/>
+							<ListHeaderItem text="Function" height="24"/>
+						</ListHeader>
+					</List>	
+				</HorizontalLayout>
+									
+			</VerticalLayout>
+		</TabLayout >
+	</VerticalLayout>
+</Window>

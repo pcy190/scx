@@ -1,0 +1,7 @@
+Shellcode
+scx_GetProcAddressWithHash
+scx_MsgBox
+scx_GetCPUPtr
+scx_caller
+scx_GetProcAbsoluteAddr
+EndShellcode

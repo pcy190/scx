@@ -1,0 +1,106 @@
+﻿  StdAfx.cpp
+e:\资源\ctf\逆向\scx\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  UITreeView.cpp
+  UIlib.cpp
+  WinImplBase.cpp
+  UIDelegate.cpp
+  Utils.cpp
+  WndShadow.cpp
+  UIBase.cpp
+e:\资源\ctf\逆向\scx\duilib\core\uibase.cpp(295): warning C4244: “=”: 从“WPARAM”转换到“UINT”，可能丢失数据
+e:\资源\ctf\逆向\scx\duilib\core\uibase.cpp(307): warning C4244: “参数”: 从“WPARAM”转换到“int”，可能丢失数据
+  UIContainer.cpp
+  UIControl.cpp
+e:\资源\ctf\逆向\scx\duilib\core\uicontrol.cpp(831): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIDlgBuilder.cpp
+  UIManager.cpp
+e:\资源\ctf\逆向\scx\duilib\core\uimanager.cpp(1042): warning C4838: 从“DWORD”转换到“LONG”需要收缩转换
+  UIMarkup.cpp
+e:\资源\ctf\逆向\scx\duilib\core\uimarkup.cpp(209): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+e:\资源\ctf\逆向\scx\duilib\core\uimarkup.cpp(214): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+e:\资源\ctf\逆向\scx\duilib\core\uimarkup.cpp(489): warning C4244: “初始化”: 从“__int64”转换到“ULONG”，可能丢失数据
+e:\资源\ctf\逆向\scx\duilib\core\uimarkup.cpp(490): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+e:\资源\ctf\逆向\scx\duilib\core\uimarkup.cpp(506): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+e:\资源\ctf\逆向\scx\duilib\core\uimarkup.cpp(514): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+  UIRender.cpp
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1188): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1377): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1377): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1444): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1444): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1478): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1492): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1492): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1513): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1513): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1523): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1578): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1578): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1611): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1611): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1679): warning C4311: “类型强制转换”: 从“LPVOID”到“UINT”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1679): warning C4302: “类型强制转换”: 从“LPVOID”到“UINT”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1725): warning C4312: “类型强制转换”: 从“int”转换到更大的“LPVOID”
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1744): warning C4312: “类型强制转换”: 从“UINT”转换到更大的“LPVOID”
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1778): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1778): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1815): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1815): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1823): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1823): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1847): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1847): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1867): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1867): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1880): warning C4311: “类型强制转换”: 从“LPVOID”到“UINT”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1880): warning C4302: “类型强制转换”: 从“LPVOID”到“UINT”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1896): warning C4311: “类型强制转换”: 从“LPVOID”到“UINT”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1896): warning C4302: “类型强制转换”: 从“LPVOID”到“UINT”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1914): warning C4311: “类型强制转换”: 从“LPVOID”到“UINT”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1914): warning C4302: “类型强制转换”: 从“LPVOID”到“UINT”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1997): warning C4311: “类型强制转换”: 从“LPVOID”到“UINT”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(1997): warning C4302: “类型强制转换”: 从“LPVOID”到“UINT”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(2033): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(2033): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+e:\资源\ctf\逆向\scx\duilib\core\uirender.cpp(2184): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  UIChildLayout.cpp
+  UIHorizontalLayout.cpp
+e:\资源\ctf\逆向\scx\duilib\layout\uihorizontallayout.cpp(313): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UITabLayout.cpp
+  UITileLayout.cpp
+  UIVerticalLayout.cpp
+e:\资源\ctf\逆向\scx\duilib\layout\uiverticallayout.cpp(306): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIActiveX.cpp
+  UIButton.cpp
+e:\资源\ctf\逆向\scx\duilib\control\uibutton.cpp(127): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  正在生成代码...
+  正在编译...
+  UICheckBox.cpp
+  UICombo.cpp
+  UIDateTime.cpp
+e:\资源\ctf\逆向\scx\duilib\control\uidatetime.cpp(297): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIEdit.cpp
+e:\资源\ctf\逆向\scx\duilib\control\uiedit.cpp(309): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIGifAnim.cpp
+  UILabel.cpp
+e:\资源\ctf\逆向\scx\duilib\control\uilabel.cpp(433): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  UIList.cpp
+e:\资源\ctf\逆向\scx\duilib\control\uilist.cpp(1780): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+e:\资源\ctf\逆向\scx\duilib\control\uilist.cpp(2416): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIOption.cpp
+  UIProgress.cpp
+  UIRichEdit.cpp
+  UIScrollBar.cpp
+  UISlider.cpp
+e:\资源\ctf\逆向\scx\duilib\control\uislider.cpp(212): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIText.cpp
+e:\资源\ctf\逆向\scx\duilib\control\uitext.cpp(52): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIWebBrowser.cpp
+  正在生成代码...
+  stb_image.c
+  XUnzip.cpp
+e:\资源\ctf\逆向\scx\duilib\utils\xunzip.cpp(3458): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(E:\资源\CTF\逆向\scx\x64\Release\DuiLib.dll) 与 Linker 的 OutputFile 属性值(E:\资源\CTF\逆向\scx\bin\DuiLib.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+    正在创建库 ../Lib/DuiLib.lib 和对象 ../Lib/DuiLib.exp
+LINK : warning LNK4281: x64 映像的基址 0x11000000 不适当；将基址设为 4 GB 以上以实现最佳 ASLR 优化
+  DuiLib.vcxproj -> E:\资源\CTF\逆向\scx\x64\Release\DuiLib.dll

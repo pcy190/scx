@@ -1,0 +1,101 @@
+﻿  stdafx.cpp
+e:\资源\ctf\逆向\scx\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  DUI_ShellcodeX.cpp
+  MainWnd.cpp
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(230): error C2664: “UINT DragQueryFileA(HDROP,UINT,LPSTR,UINT)”: 无法将参数 3 从“WCHAR [260]”转换为“LPSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(230): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(232): error C2664: “void DuiLib::CEditUI::SetText(LPCTSTR)”: 无法将参数 1 从“WCHAR [260]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(232): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(316): error C2664: “int WideCharToMultiByte(UINT,DWORD,LPCWCH,int,LPSTR,int,LPCCH,LPBOOL)”: 无法将参数 3 从“LPCTSTR”转换为“LPCWCH”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(316): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(328): error C2664: “void DuiLib::CEditUI::SetText(LPCTSTR)”: 无法将参数 1 从“WCHAR [64]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(328): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(330): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(331): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(334): error C2664: “void DuiLib::CEditUI::SetText(LPCTSTR)”: 无法将参数 1 从“WCHAR [64]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(334): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(339): error C2664: “void DuiLib::CEditUI::SetText(LPCTSTR)”: 无法将参数 1 从“const wchar_t [1]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(339): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(351): warning C4996: 'wcsupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _wcsupr. See online help for details.
+  f:\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h(633): note: 参见“wcsupr”的声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(399): error C2664: “int WideCharToMultiByte(UINT,DWORD,LPCWCH,int,LPSTR,int,LPCCH,LPBOOL)”: 无法将参数 3 从“LPCTSTR”转换为“LPCWCH”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(399): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(427): error C2664: “int WideCharToMultiByte(UINT,DWORD,LPCWCH,int,LPSTR,int,LPCCH,LPBOOL)”: 无法将参数 3 从“LPCTSTR”转换为“LPCWCH”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(427): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(428): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(443): warning C4477: “sprintf_s”: 格式字符串“%S”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(443): note: 请考虑在格式字符串中使用“%hS”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(443): note: 请考虑在格式字符串中使用“%TS”
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(443): warning C4477: “sprintf_s”: 格式字符串“%S”需要类型“wchar_t *”的参数，但可变参数 2 拥有了类型“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(443): note: 请考虑在格式字符串中使用“%hS”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(443): note: 请考虑在格式字符串中使用“%TS”
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(444): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(458): warning C4244: “=”: 从“ULONG_PTR”转换到“DWORD”，可能丢失数据
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(459): error C2664: “int DuiLib::CDuiString::SmallFormat(LPCTSTR,...)”: 无法将参数 1 从“const wchar_t [3]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(459): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(471): warning C4244: “=”: 从“ULONG_PTR”转换到“DWORD”，可能丢失数据
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(494): warning C4244: “=”: 从“ULONG_PTR”转换到“DWORD”，可能丢失数据
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(507): error C2664: “BOOL CreateProcessW(LPCWSTR,LPWSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCWSTR,LPSTARTUPINFOW,LPPROCESS_INFORMATION)”: 无法将参数 9 从“STARTUPINFO *”转换为“LPSTARTUPINFOW”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(507): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(555): warning C4244: “=”: 从“ULONG_PTR”转换到“DWORD”，可能丢失数据
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(556): error C2664: “HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)”: 无法将参数 1 从“LPCTSTR”转换为“LPCWSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(556): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(570): error C2664: “DWORD GetCurrentDirectoryA(DWORD,LPSTR)”: 无法将参数 2 从“WCHAR [260]”转换为“LPSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(570): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(571): error C2664: “int DuiLib::CDuiString::Format(LPCTSTR,...)”: 无法将参数 1 从“const wchar_t [11]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(571): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(573): error C2664: “int DuiLib::CDuiString::Format(LPCTSTR,...)”: 无法将参数 1 从“const wchar_t [12]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(573): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(606): error C2664: “PWSTR StrStrW(PCWSTR,PCWSTR)”: 无法将参数 2 从“LPCTSTR”转换为“PCWSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(606): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(625): error C2664: “void DuiLib::CListTextElementUI::SetText(int,LPCTSTR)”: 无法将参数 2 从“WCHAR [32]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(625): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(626): error C2664: “void DuiLib::CListTextElementUI::SetText(int,LPCTSTR)”: 无法将参数 2 从“LPWSTR”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(626): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(628): error C2664: “PWSTR StrStrW(PCWSTR,PCWSTR)”: 无法将参数 2 从“LPCTSTR”转换为“PCWSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(628): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(634): error C2664: “void DuiLib::CLabelUI::SetText(LPCTSTR)”: 无法将参数 1 从“WCHAR [10]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(634): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(662): error C2664: “errno_t wcscpy_s(wchar_t *,rsize_t,const wchar_t *)”: 无法将参数 3 从“DuiLib::CDuiString”转换为“const wchar_t *”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(662): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(676): error C2664: “errno_t wcscpy_s(wchar_t *,rsize_t,const wchar_t *)”: 无法将参数 3 从“DuiLib::CDuiString”转换为“const wchar_t *”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(676): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(691): error C2664: “void DuiLib::CListTextElementUI::SetText(int,LPCTSTR)”: 无法将参数 2 从“WCHAR [32]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(691): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(692): error C2664: “void DuiLib::CListTextElementUI::SetText(int,LPCTSTR)”: 无法将参数 2 从“LPWSTR”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(692): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(738): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(766): error C2664: “int DuiLib::CDuiString::SmallFormat(LPCTSTR,...)”: 无法将参数 1 从“const wchar_t [3]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(766): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(783): error C2664: “DWORD GetModuleFileNameA(HMODULE,LPSTR,DWORD)”: 无法将参数 2 从“WCHAR [260]”转换为“LPSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(783): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(786): error C2664: “void DuiLib::CEditUI::SetText(LPCTSTR)”: 无法将参数 1 从“WCHAR [260]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(786): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(788): error C2664: “void DuiLib::CEditUI::SetText(LPCTSTR)”: 无法将参数 1 从“WCHAR [260]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(788): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(790): error C2664: “void DuiLib::CEditUI::SetText(LPCTSTR)”: 无法将参数 1 从“WCHAR [260]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(790): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(792): error C2664: “void DuiLib::CEditUI::SetText(LPCTSTR)”: 无法将参数 1 从“WCHAR [260]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(792): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(800): error C2664: “DWORD GetModuleFileNameA(HMODULE,LPSTR,DWORD)”: 无法将参数 2 从“WCHAR [260]”转换为“LPSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(800): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(803): error C2664: “BOOL WritePrivateProfileStringW(LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR)”: 无法将参数 3 从“LPCTSTR”转换为“LPCWSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(803): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(804): error C2664: “BOOL WritePrivateProfileStringW(LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR)”: 无法将参数 3 从“LPCTSTR”转换为“LPCWSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(804): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(805): error C2664: “BOOL WritePrivateProfileStringW(LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR)”: 无法将参数 3 从“LPCTSTR”转换为“LPCWSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(805): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(806): error C2664: “BOOL WritePrivateProfileStringW(LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR)”: 无法将参数 3 从“LPCTSTR”转换为“LPCWSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(806): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(815): error C2664: “void DuiLib::CEditUI::SetText(LPCTSTR)”: 无法将参数 1 从“WCHAR [260]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(815): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(824): error C2664: “void DuiLib::CEditUI::SetText(LPCTSTR)”: 无法将参数 1 从“WCHAR [260]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(824): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(833): error C2664: “void DuiLib::CEditUI::SetText(LPCTSTR)”: 无法将参数 1 从“WCHAR [260]”转换为“LPCTSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(833): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+  SCXHelper.cpp
+e:\资源\ctf\逆向\scx\dui_shellcodex\scxhelper.cpp(84): error C2440: “=”: 无法从“LPWSTR”转换为“LPCSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\scxhelper.cpp(84): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\资源\ctf\逆向\scx\dui_shellcodex\scxhelper.cpp(95): error C2664: “BOOL SHGetPathFromIDListA(LPCITEMIDLIST,LPSTR)”: 无法将参数 2 从“LPWSTR”转换为“LPSTR”
+  e:\资源\ctf\逆向\scx\dui_shellcodex\scxhelper.cpp(95): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+  正在生成代码...

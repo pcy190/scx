@@ -1,0 +1,101 @@
+﻿  stdafx.cpp
+e:\资源\ctf\逆向\scx\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  DUI_ShellcodeX.cpp
+  MainWnd.cpp
+e:\资源\ctf\逆向\scx\dui_shellcodex\mainwnd.cpp(351): warning C4996: 'wcsupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _wcsupr. See online help for details.
+  f:\windows kits\10\include\10.0.18362.0\ucrt\corecrt_wstring.h(633): note: 参见“wcsupr”的声明
+  SCXHelper.cpp
+  scx.c
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(21): warning C4087: “pfnLoadLibraryW”: 用“void”参数列表声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(24): warning C4087: “pfnMessageBoxW”: 用“void”参数列表声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(28): warning C4087: “pfnExitProcess”: 用“void”参数列表声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(65): warning C4133: “函数”: 从“STARTUPINFOW *”到“LPSTARTUPINFOA”的类型不兼容
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(48): warning C4996: 'WSASocketA': Use WSASocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  f:\windows kits\10\include\10.0.18362.0\um\winsock2.h(3416): note: 参见“WSASocketA”的声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(101): warning C4087: “pfnLoadLibraryA”: 用“void”参数列表声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(112): warning C4087: “pfnWSAStartup”: 用“void”参数列表声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(113): warning C4087: “pfnWSASocketA”: 用“void”参数列表声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(113): warning C4047: “=”:“SOCKET”与“void *”的间接级别不同
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(119): warning C4087: “pfnbind”: 用“void”参数列表声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(120): warning C4087: “pfnlisten”: 用“void”参数列表声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(121): warning C4087: “pfnaccept”: 用“void”参数列表声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(121): warning C4047: “=”:“SOCKET”与“void *”的间接级别不同
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(122): warning C4087: “pfnclosesocket”: 用“void”参数列表声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(130): warning C4087: “pfnCreateProcessA”: 用“void”参数列表声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(131): warning C4087: “pfnWaitForSingleObject”: 用“void”参数列表声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(132): warning C4087: “pfnExitProcess”: 用“void”参数列表声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(146): warning C4047: “函数”:“ULONG_PTR”与“void (__cdecl *)()”的间接级别不同
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(146): warning C4024: “scx_GetProcAbsoluteAddr”: 形参和实参 1 的类型不同
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(149): warning C4087: “pfnCreateThread”: 用“void”参数列表声明
+e:\资源\ctf\逆向\scx\dui_shellcodex\scx.c(150): warning C4087: “pfnWaitForSingleObject”: 用“void”参数列表声明
+  ScxGadgets.c
+e:\资源\ctf\逆向\scx\dui_shellcodex\scxgadgets.c(23): warning C4098: “scx_mset”:“void”函数返回值
+  GetProcAddressWithHash.c
+e:\资源\ctf\逆向\scx\dui_shellcodex\getprocaddresswithhash.c(109): warning C4133: “<”: 从“PIMAGE_EXPORT_DIRECTORY”到“PVOID”的类型不兼容
+e:\资源\ctf\逆向\scx\dui_shellcodex\getprocaddresswithhash.c(109): warning C4133: “>”: 从“PBYTE”到“PVOID”的类型不兼容
+e:\资源\ctf\逆向\scx\dui_shellcodex\getprocaddresswithhash.c(162): warning C4087: “pfnLoadLib”: 用“void”参数列表声明
+DUI_ShellcodeX.obj : error LNK2001: 无法解析的外部符号 "public: static void __cdecl DuiLib::CPaintManagerUI::SetInstance(struct HINSTANCE__ *)" (?SetInstance@CPaintManagerUI@DuiLib@@SAXPAUHINSTANCE__@@@Z)
+DUI_ShellcodeX.obj : error LNK2001: 无法解析的外部符号 "public: unsigned int __thiscall DuiLib::CWindowWnd::ShowModal(void)" (?ShowModal@CWindowWnd@DuiLib@@QAEIXZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual unsigned int __thiscall DuiLib::WindowImplBase::GetClassStyle(void)const " (?GetClassStyle@WindowImplBase@DuiLib@@UBEIXZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall DuiLib::CPaintManagerUI::~CPaintManagerUI(void)" (??1CPaintManagerUI@DuiLib@@QAE@XZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall DuiLib::CPaintManagerUI::CPaintManagerUI(void)" (??0CPaintManagerUI@DuiLib@@QAE@XZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual class DuiLib::CControlUI * __thiscall DuiLib::WindowImplBase::CreateControl(wchar_t const *)" (?CreateControl@WindowImplBase@DuiLib@@UAEPAVCControlUI@2@PB_W@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::MessageHandler(unsigned int,unsigned int,long,bool &)" (?MessageHandler@WindowImplBase@DuiLib@@UAEJIIJAA_N@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall DuiLib::WindowImplBase::Notify(struct DuiLib::tagTNotifyUI &)" (?Notify@WindowImplBase@DuiLib@@UAEXAAUtagTNotifyUI@2@@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "protected: virtual struct DuiLib::DUI_MSGMAP const * __thiscall DuiLib::WindowImplBase::GetMessageMap(void)const " (?GetMessageMap@WindowImplBase@DuiLib@@MBEPBUDUI_MSGMAP@2@XZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::GetStyle(void)" (?GetStyle@WindowImplBase@DuiLib@@UAEJXZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::HandleCustomMessage(unsigned int,unsigned int,long,int &)" (?HandleCustomMessage@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnMouseMove(unsigned int,unsigned int,long,int &)" (?OnMouseMove@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnLButtonUp(unsigned int,unsigned int,long,int &)" (?OnLButtonUp@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnLButtonDown(unsigned int,unsigned int,long,int &)" (?OnLButtonDown@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnSetFocus(unsigned int,unsigned int,long,int &)" (?OnSetFocus@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnKillFocus(unsigned int,unsigned int,long,int &)" (?OnKillFocus@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnKeyDown(unsigned int,unsigned int,long,int &)" (?OnKeyDown@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnCreate(unsigned int,unsigned int,long,int &)" (?OnCreate@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnSysCommand(unsigned int,unsigned int,long,int &)" (?OnSysCommand@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnChar(unsigned int,unsigned int,long,int &)" (?OnChar@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnSize(unsigned int,unsigned int,long,int &)" (?OnSize@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnMouseHover(unsigned int,unsigned int,long,int &)" (?OnMouseHover@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnMouseWheel(unsigned int,unsigned int,long,int &)" (?OnMouseWheel@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnGetMinMaxInfo(unsigned int,unsigned int,long,int &)" (?OnGetMinMaxInfo@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnNcHitTest(unsigned int,unsigned int,long,int &)" (?OnNcHitTest@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnNcPaint(unsigned int,unsigned int,long,int &)" (?OnNcPaint@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnNcCalcSize(unsigned int,unsigned int,long,int &)" (?OnNcCalcSize@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnNcActivate(unsigned int,unsigned int,long,int &)" (?OnNcActivate@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnDestroy(unsigned int,unsigned int,long,int &)" (?OnDestroy@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::OnClose(unsigned int,unsigned int,long,int &)" (?OnClose@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual wchar_t const * __thiscall DuiLib::WindowImplBase::GetResourceID(void)const " (?GetResourceID@WindowImplBase@DuiLib@@UBEPB_WXZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual class DuiLib::CDuiString __thiscall DuiLib::WindowImplBase::GetZIPFileName(void)const " (?GetZIPFileName@WindowImplBase@DuiLib@@UBE?AVCDuiString@2@XZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual enum DuiLib::UILIB_RESOURCETYPE __thiscall DuiLib::WindowImplBase::GetResourceType(void)const " (?GetResourceType@WindowImplBase@DuiLib@@UBE?AW4UILIB_RESOURCETYPE@2@XZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "protected: virtual long __thiscall DuiLib::WindowImplBase::ResponseDefaultKeyEvent(unsigned int)" (?ResponseDefaultKeyEvent@WindowImplBase@DuiLib@@MAEJI@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall DuiLib::WindowImplBase::OnClick(struct DuiLib::tagTNotifyUI &)" (?OnClick@WindowImplBase@DuiLib@@MAEXAAUtagTNotifyUI@2@@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall DuiLib::WindowImplBase::OnFinalMessage(struct HWND__ *)" (?OnFinalMessage@WindowImplBase@DuiLib@@UAEXPAUHWND__@@@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall DuiLib::WindowImplBase::HandleMessage(unsigned int,unsigned int,long)" (?HandleMessage@WindowImplBase@DuiLib@@UAEJIIJ@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "protected: virtual wchar_t const * __thiscall DuiLib::CWindowWnd::GetSuperClassName(void)const " (?GetSuperClassName@CWindowWnd@DuiLib@@MBEPB_WXZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall DuiLib::CDuiStringPtrMap::~CDuiStringPtrMap(void)" (??1CDuiStringPtrMap@DuiLib@@QAE@XZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall DuiLib::CDuiStringPtrMap::CDuiStringPtrMap(int)" (??0CDuiStringPtrMap@DuiLib@@QAE@H@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "protected: virtual struct DuiLib::DUI_MSGMAP const * __thiscall DuiLib::CNotifyPump::GetMessageMap(void)const " (?GetMessageMap@CNotifyPump@DuiLib@@MBEPBUDUI_MSGMAP@2@XZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall DuiLib::CWindowWnd::CWindowWnd(void)" (??0CWindowWnd@DuiLib@@QAE@XZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: struct HWND__ * __thiscall DuiLib::CWindowWnd::Create(struct HWND__ *,wchar_t const *,unsigned long,unsigned long,int,int,int,int,struct HMENU__ *)" (?Create@CWindowWnd@DuiLib@@QAEPAUHWND__@@PAU3@PB_WKKHHHHPAUHMENU__@@@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall DuiLib::CDuiString::CDuiString(wchar_t const *,int)" (??0CDuiString@DuiLib@@QAE@PB_WH@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall DuiLib::CDuiString::~CDuiString(void)" (??1CDuiString@DuiLib@@QAE@XZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall DuiLib::CWindowWnd::CenterWindow(void)" (?CenterWindow@CWindowWnd@DuiLib@@QAEXXZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: class DuiLib::CControlUI * __thiscall DuiLib::CPaintManagerUI::FindControl(wchar_t const *)const " (?FindControl@CPaintManagerUI@DuiLib@@QBEPAVCControlUI@2@PB_W@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall DuiLib::CDuiString::CDuiString(class DuiLib::CDuiString const &)" (??0CDuiString@DuiLib@@QAE@ABV01@@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: bool __thiscall DuiLib::CDuiString::operator==(wchar_t const *)const " (??8CDuiString@DuiLib@@QBE_NPB_W@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: int __thiscall DuiLib::CTabLayoutUI::GetCurSel(void)const " (?GetCurSel@CTabLayoutUI@DuiLib@@QBEHXZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: bool __thiscall DuiLib::CTabLayoutUI::SelectItem(int,bool)" (?SelectItem@CTabLayoutUI@DuiLib@@QAE_NH_N@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: wchar_t const * __thiscall DuiLib::CDuiString::GetData(void)const " (?GetData@CDuiString@DuiLib@@QBEPB_WXZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall DuiLib::CDuiString::CDuiString(void)" (??0CDuiString@DuiLib@@QAE@XZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: int __thiscall DuiLib::CDuiString::GetLength(void)const " (?GetLength@CDuiString@DuiLib@@QBEHXZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: class DuiLib::CDuiString const & __thiscall DuiLib::CDuiString::operator=(wchar_t const *)" (??4CDuiString@DuiLib@@QAEABV01@PB_W@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: class DuiLib::CDuiString const & __thiscall DuiLib::CDuiString::operator+=(wchar_t const *)" (??YCDuiString@DuiLib@@QAEABV01@PB_W@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall DuiLib::CDuiString::operator wchar_t const *(void)const " (??BCDuiString@DuiLib@@QBEPB_WXZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: int __cdecl DuiLib::CDuiString::SmallFormat(wchar_t const *,...)" (?SmallFormat@CDuiString@DuiLib@@QAAHPB_WZZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: int __cdecl DuiLib::CDuiString::Format(wchar_t const *,...)" (?Format@CDuiString@DuiLib@@QAAHPB_WZZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: class DuiLib::CDuiString const & __thiscall DuiLib::CDuiString::operator=(class DuiLib::CDuiString const &)" (??4CDuiString@DuiLib@@QAEABV01@ABV01@@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: bool __thiscall DuiLib::CDuiString::IsEmpty(void)const " (?IsEmpty@CDuiString@DuiLib@@QBE_NXZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall DuiLib::CListTextElementUI::CListTextElementUI(void)" (??0CListTextElementUI@DuiLib@@QAE@XZ)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall DuiLib::CListTextElementUI::SetText(int,wchar_t const *)" (?SetText@CListTextElementUI@DuiLib@@QAEXHPB_W@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: wchar_t const * __thiscall DuiLib::CListTextElementUI::GetText(int)const " (?GetText@CListTextElementUI@DuiLib@@QBEPB_WH@Z)
+E:\资源\CTF\逆向\scx\Bin\DUI_ShellcodeX.exe : fatal error LNK1120: 64 个无法解析的外部命令
